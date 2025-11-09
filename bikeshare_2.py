@@ -3,6 +3,7 @@
 This module analyzes bikeshare data from Chicago, New York City, and Washington.
 It provides interactive filtering and statistical analysis of trip data including
 time patterns, station usage, trip duration, and user demographics.
+This module is part of a project for the Udacity Programming for Data Science with Python course.
 """
 
 import time
