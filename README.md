@@ -18,4 +18,5 @@ This project is about publishing my work on GitHub. It includes a Python script 
 
 ### Credits
 - This project is based on the Udacity project "Bikeshare Data Analysis".
+- This project is a part of the Udacity course "Programming for Data Science with Python"
 
