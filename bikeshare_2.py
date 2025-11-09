@@ -3,6 +3,7 @@
 This module analyzes bikeshare data from Chicago, New York City, and Washington.
 It provides interactive filtering and statistical analysis of trip data including
 time patterns, station usage, trip duration, and user demographics.
+This module is part of a project for the Udacity Programming for Data Science with Python course.
 """
 
 import time
@@ -26,6 +27,7 @@ def get_filters():
             day - name of the day of week to filter by, or "all" for no filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+    print('Available cities: ', list(CITY_DATA.keys()))
     city = input("Enter city name (chicago, new york city, washington): ").lower()
     while city not in CITY_DATA:
         city = input("Invalid city: type one of (chicago, new york city, washington)").lower()
